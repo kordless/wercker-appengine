@@ -1,0 +1,10 @@
+name: appengine-deploy
+version: 0.0.3
+description: Deploy to Google's AppEngine
+properties:
+  email:
+    type: string
+    required: true
+  app_pwd:
+    type: string
+    required: true
