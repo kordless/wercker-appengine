@@ -3,7 +3,7 @@ sudo apt-get install unzip
 
 cd $WERCKER_ROOT
 
-debug "Downloading appengine"
+debug "Downloading Appengine"
 curl -O https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.18.zip
 
 debug "Unzipping"
